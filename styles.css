@@ -1,0 +1,76 @@
+body{
+    background-color:hsl(257, 40%, 49%);
+    background-image: url("./images/bg-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:48em){
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+}}
+
+
+.content{
+    padding-top: 3rem;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    padding-bottom: 1rem;
+    font-weight: 600;
+    font-size: xx-large;
+}
+@media screen and (min-width:48em){
+    h1{
+        text-align:left;
+    }
+}
+
+p{
+    color:white;
+    font-family:'Open Sans';
+    font-weight: 400;
+}
+.para{
+    text-align: center;
+}
+@media screen and (min-width:48em){
+    .para{
+        text-align:start;
+    }
+}
+
+
+.mainpic{
+    width: 90%;
+    height: 90%;
+    }
+
+.btn{
+    font-weight:500;
+    border-radius: 2rem;
+    color: hsl(257, 40%, 49%);
+    margin-left: 28%;
+    padding: 3% 15%;
+    box-shadow: 5px 3px 5px rgb(56, 55, 55);
+}
+@media screen and (min-width:48em){
+    .btn{
+        margin-left: 0%;
+        padding: 2% 15%;}
+}
+svg:hover{
+    fill:hsl(300, 69%, 71%);
+    cursor: pointer;
+
+}
+.social{
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
+
+}
+
+.Icon{
+margin: 3%;}
